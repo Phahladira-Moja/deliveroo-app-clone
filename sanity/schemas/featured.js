@@ -8,7 +8,7 @@ export default defineType({
     defineField({
       name: 'name',
       type: 'string',
-      title: 'Name of dish',
+      title: 'Name',
       validation: (Rule) => Rule.required(),
     }),
 
