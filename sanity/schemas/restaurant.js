@@ -23,6 +23,12 @@ export default defineType({
       title: 'image of the Restaurant',
     },
     {
+      name: 'address',
+      type: 'string',
+      title: 'Address',
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: 'lat',
       type: 'number',
       title: 'Latitude of the Restaurant',
